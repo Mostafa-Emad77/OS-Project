@@ -19,22 +19,23 @@ int main(int argc, char **arg)
             return 1;
         }
     }
-    string cmp = arg[1];
+    string cmp = arg[1];                                                            // get input(word)
     string line;
     char c;
-    bool check=0;
+    bool check=0;                                                                   //to check c isnot space to not add to the line
     while (c != EOF)
     {
         if (c == '\n'){
             c = getchar();
             continue;
         }
-        getline(cin, line);
-        line = c + line;
-        if (line.find(cmp) != string::npos)
+        getline(cin, line);                                                         //get line from the file 
+        line = c + line;                                                            //add the character we get to the line again if isnot "\n"
+        if (line.find(cmp) != string::npos)                                         //search the word we get in the line
+      
         {
-            line.erase(line.begin());
-            if (check)
+            line.erase(line.begin());                                               //erease firsst char in line
+            if (check)                                                              //if char not space print the line that have the word
                 cout << c;
             cout << line << endl;
         }

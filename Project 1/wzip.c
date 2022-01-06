@@ -27,7 +27,7 @@ else{
 
 
 
-      // reading line by line, max 256 bytes
+      
 
 	char c;
     while ((c = fgetc(fileread)) != EOF){
@@ -47,7 +47,7 @@ else{
      int i;
     int j=1;
     for(i=0;((str[i]) != '\0'); i++){
-    	if((isspace(str[i]))==1)continue;
+    	
         if((str[i])!=(str[i+1])){
             times=j;
             ch=str[i];

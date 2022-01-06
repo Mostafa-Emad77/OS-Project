@@ -1,11 +1,11 @@
-#Wcat 
-This progarm is used read the files and print its contents when user request the file 
-code file is compileed into c/c++ by unix system (g++ -o wcat wcat.cpp -Wall -Werror).
-After doing so, we can run the tests by write this in the terminal (test-wcat.sh). 
-If the code is right as intended, we will see all test have been passed
-simple test:-
-input:a file have (hello world hello worl hel worlb). 
-output:"hello world hello worl hel worlb". 
+# Wcat 
+> This progarm is used read the files and print its contents when user request the file 
+> code file is compileed into c/c++ by unix system (g++ -o wcat wcat.cpp -Wall -Werror).
+> After doing so, we can run the tests by write this in the terminal (test-wcat.sh). 
+> If the code is right as intended, we will see all test have been passed
+> simple test:-
+> input:a file have (hello world hello worl hel worlb). 
+> output:"hello world hello worl hel worlb". 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Wgrep
 This progarm print lines where it hase the words which the user is trying to find it.

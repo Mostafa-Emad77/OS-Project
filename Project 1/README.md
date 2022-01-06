@@ -3,7 +3,7 @@
 > code file is compileed into c/c++ by unix system (g++ -o wcat wcat.cpp -Wall -Werror).
 > After doing so, we can run the tests by write this in the terminal (test-wcat.sh). 
 > If the code is right as intended, we will see all test have been passed
-> * simple test:- *
+> simple test:-
 > + input:a file have (hello world hello worl hel worlb). 
 > + output:"hello world hello worl hel worlb".  
 

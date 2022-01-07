@@ -15,10 +15,10 @@
 > simple test:-
 > + input: 
 > file have(
-> hello youssef
-> hello mostafa 
-> bye youssef
-> bye mostafa)
+> + hello youssef
+> + hello mostafa 
+> + bye youssef
+> + bye mostafa)
 > + output:"hello youssef 
 > bye youssef" 
 

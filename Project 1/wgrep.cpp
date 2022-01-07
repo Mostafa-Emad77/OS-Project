@@ -34,7 +34,7 @@ int main(int argc, char **arg)
         if (line.find(cmp) != string::npos)                                         //search the word we get in the line
       
         {
-            line.erase(line.begin());                                               //erease firsst char in line
+            line.erase(line.begin());                                               //erease firsst char in line(not print binary)
             if (check)                                                              //if char not space print the line that have the word
                 cout << c;
             cout << line << endl;

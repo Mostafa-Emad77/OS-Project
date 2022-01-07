@@ -19,8 +19,9 @@
 > + hello mostafa 
 > + bye youssef
 > + bye mostafa)
-> + output:"hello youssef 
-> bye youssef" 
+> + output:
+> + hello youssef 
+> + bye youssef 
 
 
 # Wzip

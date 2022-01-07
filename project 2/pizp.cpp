@@ -1,21 +1,13 @@
-#include <iostream>
 #include <fstream>
 #include <bits/stdc++.h>
 #include <pthread.h>
 #include <assert.h>
 #include <signal.h>
-#include <errno.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
 #define sc second
 #define ft first
-
 using namespace std;
 
 pthread_mutex_t lock1=PTHREAD_MUTEX_INITIALIZER;                                //initialize lock1
-
 int pthread_mutex_lock(pthread_mutex_t*mutex);
 int pthread_mutex_unlock(pthread_mutex_t*mutex);
 

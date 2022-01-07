@@ -9,8 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-#include <pthread.h>
-#include <signal.h>
+
 using namespace std;
 
 pthread_mutex_t lock1=PTHREAD_MUTEX_INITIALIZER;
@@ -77,7 +76,11 @@ int main(int argc,char** argv)
         pthread_join(p[i],NULL);
     }
     for(int i=1;i<argc;i++){
-        for(auto e:ans[i])cout<<e.second<<e.first;
+        for(auto e:ans[i]){
+             cout<<e.second<<e.first;
+             //fwrite(&e.second,sizeof(int),1,stdout);
+             //fwrite(&e.first,sizeof(char),1,stdout);
+        }
         cout<<endl;
     }
 }

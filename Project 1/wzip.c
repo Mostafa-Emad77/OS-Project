@@ -25,9 +25,7 @@ if(fileread==NULL){
 }
 else{
 
-
-
-      
+      // reading line by line, max 256 bytes
 
 	char c;
     while ((c = fgetc(fileread)) != EOF){
@@ -38,7 +36,6 @@ else{
     }
     
     fclose(fileread);
-
 
     }
 
@@ -58,8 +55,10 @@ else{
 
     else j++;
     }
+	
 
 }
+
 
 
 

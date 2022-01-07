@@ -13,7 +13,7 @@
 > After doing so, we can run the tests by write this in the terminal (test-wgrep.sh). 
 > If the code is right as intended, we will see all test have been passed
 > simple test:-
-> + input:youssef 
+> + input: 
 > file have(
 > hello youssef
 > hello mostafa 

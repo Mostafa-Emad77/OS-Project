@@ -16,7 +16,7 @@
 > After doing so, we can run the tests by write this in the terminal (test-wgrep.sh). 
 > If the code is right as intended, we will see all test have been passed
 ## simple test:-
-#We want to search the word "youssef" and output the line that contain this word 
+# We want to search the word "youssef" and output the line that contain this word 
 ### input: 
 > file have :
 > + hello youssef
